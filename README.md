@@ -2,6 +2,8 @@
 A collection of modded file for SkaterXL
 
 ## Skin Editor
+**Download link**
+https://github.com/Azahet/SkaterXL_Modding/releases
 
 **Features**
 - Change the skin of : Skateboard, TeeShirt, Pants, Shoes, Hat.
