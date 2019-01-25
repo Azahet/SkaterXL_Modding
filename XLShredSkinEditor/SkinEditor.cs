@@ -11,7 +11,7 @@ namespace XLShredSkinEditor
         Skin TeeShirt = new Skin("TeeShirt", new List<string> { "Cory_fixed_Karam:cory_001:shirt_geo" });
         Skin Pants = new Skin("Pants", new List<string> { "Cory_fixed_Karam:cory_001:pants_geo", "Cory_fixed_Karam:cory_001:lashes_geo" });
         Skin Shoes = new Skin("Shoes", new List<string> { "Cory_fixed_Karam:cory_001:shoes_geo" });
-        Skin Body = new Skin("Body", new List<string> { "Cory_fixed_Karam:cory_001:Body_geo", "Cory_fixed_Karam:cory_001:lacrima_geo", "Cory_fixed_Karam:cory_001:teethUp_geo", "Cory_fixed_Karam:cory_001:teethDn_geo", "Cory_fixed_Karam:cory_001:tear_geo" });
+       // Skin Body = new Skin("Body", new List<string> { "Cory_fixed_Karam:cory_001:Body_geo", "Cory_fixed_Karam:cory_001:lacrima_geo", "Cory_fixed_Karam:cory_001:teethUp_geo", "Cory_fixed_Karam:cory_001:teethDn_geo", "Cory_fixed_Karam:cory_001:tear_geo" });
         Skin Hat = new Skin("Hat", new List<string> { "Cory_fixed_Karam:cory_001:hat_geo" });
         Rect SkinEditorWindowRect = new Rect(20, 10, 170, 0);
         SkinEditorWindowShow SelectedWindow = SkinEditorWindowShow.MainSelector; 
