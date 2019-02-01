@@ -61,7 +61,7 @@
       <HintPath>B:\Programmes\Steam\steamapps\common\Skater XL\SkaterXL_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="XLShredLib">
-      <HintPath>C:\Users\Azahet\Desktop\XLShredLib.dll</HintPath>
+      <HintPath>..\..\..\Programmes\Steam\steamapps\common\Skater XL\Mods\XLShredMenuMod\XLShredLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -74,12 +74,6 @@
     </Compile>
     <Compile Include="Skin.cs" />
     <Compile Include="SkinEditor.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SkaterXl MODS DEBUG\SkaterXlMODSDEBUG.csproj">
-      <Project>{23461b59-cbb1-4b0c-a0f5-d4d151084ca8}</Project>
-      <Name>SkaterXlMODSDEBUG</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\Settings.settings">

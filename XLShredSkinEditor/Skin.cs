@@ -36,7 +36,7 @@ namespace XLShredSkinEditor
             {
                 foreach (var CurrentGameObject_ in Resources.FindObjectsOfTypeAll<GameObject>().Where(obj => obj.name == GameObject_))
                 {
-                   CurrentGameObject_.GetComponent<Renderer>().material.SetTexture(MainTextureName, Texture);
+                    CurrentGameObject_.GetComponent<Renderer>().material.SetTexture(MainTextureName, Texture);
                 }
             }           
         }
@@ -46,11 +46,19 @@ namespace XLShredSkinEditor
         public List<string> GetAllSkinName()
         {
             List<string> SkinName = new List<string>();
-
-            foreach (var CurrentSkinName in Directory.GetFiles($@"{PathRootSkinFolder}\{Name}", "*.dds"))
+            try
             {
-                SkinName.Add(Path.GetFileNameWithoutExtension(CurrentSkinName));
+                foreach (var CurrentSkinName in Directory.GetFiles($@"{PathRootSkinFolder}\{Name}", "*.dds"))
+                {
+                    SkinName.Add(Path.GetFileNameWithoutExtension(CurrentSkinName));
+                }
             }
+            catch (Exception)
+            {
+
+                Debug.Log($"Can't find {Name} folder");
+            }
+            
             return SkinName;
         }
         
@@ -71,7 +79,7 @@ namespace XLShredSkinEditor
             Buffer.BlockCopy(ddsBytes, DDS_HEADER_SIZE, dxtBytes, 0, ddsBytes.Length - DDS_HEADER_SIZE);
 
             Texture2D texture = new Texture2D(width, height, textureFormat, false);
-            texture.LoadRawTextureData(dxtBytes);
+            texture.LoadRawTextureData(dxtBytes);            
             texture.Apply();
 
             return (texture);
