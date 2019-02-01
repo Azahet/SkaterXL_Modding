@@ -7,19 +7,16 @@ https://github.com/Azahet/SkaterXL_Modding/releases
 
 **Features**
 - Change the skin of : Skateboard, TeeShirt, Pants, Shoes, Hat.
+- External tool to esay conver texture .png -> .dds DXT1
 
 **Planed Features**
 - Saving as SkinPack to automatic reload on start
-- External tool to esay conver texture .png -> .dds DXT1
+
 
 
 ## How create texture for Skin Editor
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi_webp/u4fDEyn5sC8/hqdefault.webp?sqp=CKyn0uIF&rs=AOn4CLDQnjH4VH7tGJiwux5QgySQtU3aBg)](https://youtu.be/u4fDEyn5sC8)
 
-1.  Import your texture into your image editor  *(For me photoshop)*  and do a vertical flip
-![enter image description here](https://i.imgur.com/yYQcMsh.jpg)
-
-2.   Export your image as png or jpeg and convert it to DDS DXT1 *For this personally i use DDSconverter*
-![enter image description here](https://i.imgur.com/hgLH3na.png)
 
 ## Folder path
 
