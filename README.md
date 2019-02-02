@@ -15,7 +15,7 @@ https://github.com/Azahet/SkaterXL_Modding/releases
 
 
 ## How create texture for Skin Editor
-[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi_webp/u4fDEyn5sC8/hqdefault.webp?sqp=CKyn0uIF&rs=AOn4CLDQnjH4VH7tGJiwux5QgySQtU3aBg)](https://youtu.be/u4fDEyn5sC8)
+[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/u4fDEyn5sC8/hqdefault.jpg)](https://youtu.be/u4fDEyn5sC8)
 
 
 ## Folder path
